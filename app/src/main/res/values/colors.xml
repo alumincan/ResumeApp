@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorControlNormal">#3C3C3C</color>
+    <color name="colorControlGreen">#FF5FB80C</color>
+    <color name="textColor">#000000</color>
+    <color name="textColorWhite">#FFFFFF</color>
+    <color name="colorBackground">@android:color/white</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDarkGray">#3D3D3D</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorDivider">#33000000</color>
+    <color name="colorHeaderGreen">#ACCA3C</color>
+    <color name="colorHeaderYellow">#F3D521</color>
+    <color name="colorHeaderBlue">#4CB8B7</color>
+    <color name="colorHeaderRed">#E30064</color>
+    <color name="colorHeaderNavy">#40BAE2</color>
+    <color name="colorHeaderGray">#6B696A</color>
+</resources>

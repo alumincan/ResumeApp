@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/address_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="?android:attr/spinnerDropDownItemStyle"
+    android:paddingStart="5dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:letterSpacing="0.15"
+    android:ellipsize="marquee"
+    android:textColor="@color/textColor"
+    android:textSize="18sp"
+    />
