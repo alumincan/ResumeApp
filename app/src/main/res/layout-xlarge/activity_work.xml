@@ -277,7 +277,6 @@
                     android:id="@+id/available_edittext"
                     android:focusable="false"
                     android:onClick="onAvailableClicked"
-                    android:gravity="center_horizontal"
                     android:textSize="20sp"
                     />
             </LinearLayout>

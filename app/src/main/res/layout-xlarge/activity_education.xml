@@ -269,24 +269,22 @@
                         android:letterSpacing="0.05"
                         android:hint="@string/hint_date"
                         android:focusable="false"
-                        android:gravity="center_horizontal"
                         android:id="@+id/schoolstart_edittext"
                         android:textSize="20sp"
                         android:onClick="onSchoolStartButtonClicked"
                         />
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="20dp"
                         android:layout_height="48dp"
                         android:layout_marginStart="3dp"
+                        android:layout_marginEnd="3dp"
                         android:textSize="20sp"
-                        android:text="@string/between"
-                        />
+                        android:text="@string/between"/>
                     <EditText
                         android:layout_width="255dp"
                         android:layout_height="48dp"
                         android:letterSpacing="0.05"
                         android:focusable="false"
-                        android:gravity="center_horizontal"
                         android:hint="@string/hint_date"
                         android:id="@+id/schoolend_edittext"
                         android:textSize="20sp"

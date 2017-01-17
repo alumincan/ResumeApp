@@ -27,7 +27,7 @@
     <string name="hint_school">請填寫學校名稱</string>
     <string name="hint_major">請填寫就讀科系名稱</string>
     <string name="hint_skill">請填寫相關技能(ex:程式語言、軟體認證)</string>
-    <string name="between">~</string>
+    <string name="between"> ~ </string>
     <string name="check_data_again">＊請再次檢查資料是否填寫錯誤或未填寫</string>
     <string name="next_step">下一步</string>
     <string name="yes">是</string>
