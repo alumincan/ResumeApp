@@ -72,10 +72,12 @@ public class WorkActivity extends AppCompatActivity {
                 if (mDataManager.getFuturePlan().length() > 0) {
                     futurePlanPosition = mFuturePlanAdapter.getPosition(other);
                     mFutureOther.setVisibility(View.VISIBLE);
+                    mFutureOther.setSingleLine();
+                    mFutureOther.setMaxLines(1);
                     mFutureOther.setText(mDataManager.getFuturePlan());
                 } else {
                     futurePlanPosition = 0;
-                    mJobFunction.setVisibility(View.INVISIBLE);
+                    mFutureOther.setVisibility(View.INVISIBLE);
                 }
             }
         }
@@ -99,6 +101,8 @@ public class WorkActivity extends AppCompatActivity {
                 if (mDataManager.getJobFunction().length() > 0) {
                     jobFunctionPosition = mJobFunctionAdapter.getPosition(other);
                     mJobFunction.setVisibility(View.VISIBLE);
+                    mJobFunction.setSingleLine();
+                    mJobFunction.setMaxLines(1);
                     mJobFunction.setText(mDataManager.getJobFunction());
                 } else {
                     jobFunctionPosition = 0;
@@ -125,6 +129,8 @@ public class WorkActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 if (mFuturePlanAdapter.getItem(position).equals(getString(R.string.other))) {
                     mFutureOther.setVisibility(View.VISIBLE);
+                    mFutureOther.setSingleLine();
+                    mFutureOther.setMaxLines(1);
                 } else {
                     mFutureOther.setVisibility(View.INVISIBLE);
                 }
@@ -159,6 +165,8 @@ public class WorkActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 if (mJobFunctionAdapter.getItem(position).equals(getString(R.string.other))) {
                     mJobFunction.setVisibility(View.VISIBLE);
+                    mJobFunction.setSingleLine();
+                    mJobFunction.setMaxLines(1);
                 } else {
                     mJobFunction.setVisibility(View.INVISIBLE);
                 }

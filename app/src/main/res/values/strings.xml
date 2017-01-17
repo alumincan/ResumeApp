@@ -7,7 +7,7 @@
     <string name="start_entering">開始填寫</string>
     <string name="legal_announcement">個資法聲明</string>
     <string name="legal_content_part1">本人同意將本人於仁寶電腦活動留下之聯絡方式及個人資訊，無償且不附帶任何條件提供予「仁寶電腦工業股份有限公司及所屬關係企業」(以下簡稱「仁寶電腦」)蒐集、處理及作為以下特定目的之利用：</string>
-    <string name="legal_content_part2">(一)	作為仁寶電腦招募活動時使用\n(二)	作為招募之查閱、聯絡及推薦使用\n(三)其他另經本人以書面、電子郵件、傳真、網頁按鈕點選同意之特定目的之利用。\n\n同時，本人授權仁寶電腦得就本人在此陳述之內容真實性，進行確認；並且完全瞭解，若後續與仁寶電腦間有聘僱關係，任何不實
+    <string name="legal_content_part2">(一)	作為仁寶電腦招募活動時使用\n(二)	作為招募之查閱、聯絡及推薦使用\n(三)	其他另經本人以書面、電子郵件、傳真、網頁按鈕點選同意之特定目的之利用。\n\n同時，本人授權仁寶電腦得就本人在此陳述之內容真實性，進行確認；並且完全瞭解，若後續與仁寶電腦間有聘僱關係，任何不實
 陳述將足以構成聘僱關係之終止。</string>
     <string name="agree_content">我已閱讀並接受上述同意書內容</string>
     <string name="no_exit_system">不，離開系統</string>
